@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBE157A18DCCF5A000826F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE157918DCCF5A000826F1 /* Foundation.framework */; };
+		BDBE157C18DCCF5A000826F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE157B18DCCF5A000826F1 /* CoreGraphics.framework */; };
+		BDBE157E18DCCF5A000826F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE157D18DCCF5A000826F1 /* UIKit.framework */; };
+		BDBE158418DCCF5A000826F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDBE158218DCCF5A000826F1 /* InfoPlist.strings */; };
+		BDBE158618DCCF5A000826F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE158518DCCF5A000826F1 /* main.m */; };
+		BDBE158A18DCCF5A000826F1 /* socketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE158918DCCF5A000826F1 /* socketAppDelegate.m */; };
+		BDBE158D18DCCF5A000826F1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE158B18DCCF5A000826F1 /* Main_iPhone.storyboard */; };
+		BDBE159018DCCF5A000826F1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE158E18DCCF5A000826F1 /* Main_iPad.storyboard */; };
+		BDBE159318DCCF5A000826F1 /* socketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE159218DCCF5A000826F1 /* socketViewController.m */; };
+		BDBE159518DCCF5A000826F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE159418DCCF5A000826F1 /* Images.xcassets */; };
+		BDBE159C18DCCF5A000826F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE159B18DCCF5A000826F1 /* XCTest.framework */; };
+		BDBE159D18DCCF5A000826F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE157918DCCF5A000826F1 /* Foundation.framework */; };
+		BDBE159E18DCCF5A000826F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE157D18DCCF5A000826F1 /* UIKit.framework */; };
+		BDBE15A618DCCF5A000826F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDBE15A418DCCF5A000826F1 /* InfoPlist.strings */; };
+		BDBE15A818DCCF5A000826F1 /* WebSocketsHoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE15A718DCCF5A000826F1 /* WebSocketsHoverTests.m */; };
+		BDBE15B918DCD181000826F1 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = BDBE15B218DCD181000826F1 /* base64.c */; };
+		BDBE15BA18DCD181000826F1 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE15B518DCD181000826F1 /* NSData+SRB64Additions.m */; };
+		BDBE15BB18DCD181000826F1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBE15B818DCD181000826F1 /* SRWebSocket.m */; };
+		BDBE15BD18DCD2F7000826F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE15BC18DCD2F7000826F1 /* Security.framework */; };
+		BDBE15BF18DCD2FF000826F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE15BE18DCD2FF000826F1 /* CFNetwork.framework */; };
+		BDBE15C118DCD321000826F1 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBE15C018DCD321000826F1 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBE159F18DCCF5A000826F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBE156E18DCCF5A000826F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBE157518DCCF5A000826F1;
+			remoteInfo = WebSocketsHover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDBE157618DCCF5A000826F1 /* WebSocketsHover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocketsHover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE157918DCCF5A000826F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDBE157B18DCCF5A000826F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDBE157D18DCCF5A000826F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDBE158118DCCF5A000826F1 /* WebSocketsHover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebSocketsHover-Info.plist"; sourceTree = "<group>"; };
+		BDBE158318DCCF5A000826F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDBE158518DCCF5A000826F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDBE158718DCCF5A000826F1 /* WebSocketsHover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebSocketsHover-Prefix.pch"; sourceTree = "<group>"; };
+		BDBE158818DCCF5A000826F1 /* socketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socketAppDelegate.h; sourceTree = "<group>"; };
+		BDBE158918DCCF5A000826F1 /* socketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketAppDelegate.m; sourceTree = "<group>"; };
+		BDBE158C18DCCF5A000826F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BDBE158F18DCCF5A000826F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BDBE159118DCCF5A000826F1 /* socketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socketViewController.h; sourceTree = "<group>"; };
+		BDBE159218DCCF5A000826F1 /* socketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketViewController.m; sourceTree = "<group>"; };
+		BDBE159418DCCF5A000826F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDBE159A18DCCF5A000826F1 /* WebSocketsHoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSocketsHoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE159B18DCCF5A000826F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDBE15A318DCCF5A000826F1 /* WebSocketsHoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebSocketsHoverTests-Info.plist"; sourceTree = "<group>"; };
+		BDBE15A518DCCF5A000826F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDBE15A718DCCF5A000826F1 /* WebSocketsHoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSocketsHoverTests.m; sourceTree = "<group>"; };
+		BDBE15B218DCD181000826F1 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		BDBE15B318DCD181000826F1 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		BDBE15B418DCD181000826F1 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		BDBE15B518DCD181000826F1 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		BDBE15B618DCD181000826F1 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		BDBE15B718DCD181000826F1 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		BDBE15B818DCD181000826F1 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		BDBE15BC18DCD2F7000826F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BDBE15BE18DCD2FF000826F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BDBE15C018DCD321000826F1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBE157318DCCF5A000826F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE15C118DCD321000826F1 /* libicucore.dylib in Frameworks */,
+				BDBE15BF18DCD2FF000826F1 /* CFNetwork.framework in Frameworks */,
+				BDBE15BD18DCD2F7000826F1 /* Security.framework in Frameworks */,
+				BDBE157C18DCCF5A000826F1 /* CoreGraphics.framework in Frameworks */,
+				BDBE157E18DCCF5A000826F1 /* UIKit.framework in Frameworks */,
+				BDBE157A18DCCF5A000826F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE159718DCCF5A000826F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE159C18DCCF5A000826F1 /* XCTest.framework in Frameworks */,
+				BDBE159E18DCCF5A000826F1 /* UIKit.framework in Frameworks */,
+				BDBE159D18DCCF5A000826F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBE156D18DCCF5A000826F1 = {
+			isa = PBXGroup;
+			children = (
+				BDBE157F18DCCF5A000826F1 /* WebSocketsHover */,
+				BDBE15A118DCCF5A000826F1 /* WebSocketsHoverTests */,
+				BDBE157818DCCF5A000826F1 /* Frameworks */,
+				BDBE157718DCCF5A000826F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBE157718DCCF5A000826F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE157618DCCF5A000826F1 /* WebSocketsHover.app */,
+				BDBE159A18DCCF5A000826F1 /* WebSocketsHoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBE157818DCCF5A000826F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE15C018DCD321000826F1 /* libicucore.dylib */,
+				BDBE15BE18DCD2FF000826F1 /* CFNetwork.framework */,
+				BDBE15BC18DCD2F7000826F1 /* Security.framework */,
+				BDBE157918DCCF5A000826F1 /* Foundation.framework */,
+				BDBE157B18DCCF5A000826F1 /* CoreGraphics.framework */,
+				BDBE157D18DCCF5A000826F1 /* UIKit.framework */,
+				BDBE159B18DCCF5A000826F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBE157F18DCCF5A000826F1 /* WebSocketsHover */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE15B118DCD181000826F1 /* SocketRocket */,
+				BDBE158818DCCF5A000826F1 /* socketAppDelegate.h */,
+				BDBE158918DCCF5A000826F1 /* socketAppDelegate.m */,
+				BDBE158B18DCCF5A000826F1 /* Main_iPhone.storyboard */,
+				BDBE158E18DCCF5A000826F1 /* Main_iPad.storyboard */,
+				BDBE159118DCCF5A000826F1 /* socketViewController.h */,
+				BDBE159218DCCF5A000826F1 /* socketViewController.m */,
+				BDBE159418DCCF5A000826F1 /* Images.xcassets */,
+				BDBE158018DCCF5A000826F1 /* Supporting Files */,
+			);
+			path = WebSocketsHover;
+			sourceTree = "<group>";
+		};
+		BDBE158018DCCF5A000826F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE158118DCCF5A000826F1 /* WebSocketsHover-Info.plist */,
+				BDBE158218DCCF5A000826F1 /* InfoPlist.strings */,
+				BDBE158518DCCF5A000826F1 /* main.m */,
+				BDBE158718DCCF5A000826F1 /* WebSocketsHover-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBE15A118DCCF5A000826F1 /* WebSocketsHoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE15A718DCCF5A000826F1 /* WebSocketsHoverTests.m */,
+				BDBE15A218DCCF5A000826F1 /* Supporting Files */,
+			);
+			path = WebSocketsHoverTests;
+			sourceTree = "<group>";
+		};
+		BDBE15A218DCCF5A000826F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE15A318DCCF5A000826F1 /* WebSocketsHoverTests-Info.plist */,
+				BDBE15A418DCCF5A000826F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBE15B118DCD181000826F1 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE15B218DCD181000826F1 /* base64.c */,
+				BDBE15B318DCD181000826F1 /* base64.h */,
+				BDBE15B418DCD181000826F1 /* NSData+SRB64Additions.h */,
+				BDBE15B518DCD181000826F1 /* NSData+SRB64Additions.m */,
+				BDBE15B618DCD181000826F1 /* SocketRocket-Prefix.pch */,
+				BDBE15B718DCD181000826F1 /* SRWebSocket.h */,
+				BDBE15B818DCD181000826F1 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBE157518DCCF5A000826F1 /* WebSocketsHover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE15AB18DCCF5A000826F1 /* Build configuration list for PBXNativeTarget "WebSocketsHover" */;
+			buildPhases = (
+				BDBE157218DCCF5A000826F1 /* Sources */,
+				BDBE157318DCCF5A000826F1 /* Frameworks */,
+				BDBE157418DCCF5A000826F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebSocketsHover;
+			productName = WebSocketsHover;
+			productReference = BDBE157618DCCF5A000826F1 /* WebSocketsHover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBE159918DCCF5A000826F1 /* WebSocketsHoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE15AE18DCCF5A000826F1 /* Build configuration list for PBXNativeTarget "WebSocketsHoverTests" */;
+			buildPhases = (
+				BDBE159618DCCF5A000826F1 /* Sources */,
+				BDBE159718DCCF5A000826F1 /* Frameworks */,
+				BDBE159818DCCF5A000826F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBE15A018DCCF5A000826F1 /* PBXTargetDependency */,
+			);
+			name = WebSocketsHoverTests;
+			productName = WebSocketsHoverTests;
+			productReference = BDBE159A18DCCF5A000826F1 /* WebSocketsHoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBE156E18DCCF5A000826F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = socket;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Erick N";
+				TargetAttributes = {
+					BDBE159918DCCF5A000826F1 = {
+						TestTargetID = BDBE157518DCCF5A000826F1;
+					};
+				};
+			};
+			buildConfigurationList = BDBE157118DCCF5A000826F1 /* Build configuration list for PBXProject "WebSocketsHover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBE156D18DCCF5A000826F1;
+			productRefGroup = BDBE157718DCCF5A000826F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBE157518DCCF5A000826F1 /* WebSocketsHover */,
+				BDBE159918DCCF5A000826F1 /* WebSocketsHoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBE157418DCCF5A000826F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE159018DCCF5A000826F1 /* Main_iPad.storyboard in Resources */,
+				BDBE159518DCCF5A000826F1 /* Images.xcassets in Resources */,
+				BDBE158D18DCCF5A000826F1 /* Main_iPhone.storyboard in Resources */,
+				BDBE158418DCCF5A000826F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE159818DCCF5A000826F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE15A618DCCF5A000826F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBE157218DCCF5A000826F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE15BB18DCD181000826F1 /* SRWebSocket.m in Sources */,
+				BDBE15BA18DCD181000826F1 /* NSData+SRB64Additions.m in Sources */,
+				BDBE158618DCCF5A000826F1 /* main.m in Sources */,
+				BDBE159318DCCF5A000826F1 /* socketViewController.m in Sources */,
+				BDBE15B918DCD181000826F1 /* base64.c in Sources */,
+				BDBE158A18DCCF5A000826F1 /* socketAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE159618DCCF5A000826F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE15A818DCCF5A000826F1 /* WebSocketsHoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBE15A018DCCF5A000826F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBE157518DCCF5A000826F1 /* WebSocketsHover */;
+			targetProxy = BDBE159F18DCCF5A000826F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBE158218DCCF5A000826F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBE158318DCCF5A000826F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDBE158B18DCCF5A000826F1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBE158C18DCCF5A000826F1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBE158E18DCCF5A000826F1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBE158F18DCCF5A000826F1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBE15A418DCCF5A000826F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBE15A518DCCF5A000826F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBE15A918DCCF5A000826F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBE15AA18DCCF5A000826F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBE15AC18DCCF5A000826F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebSocketsHover/WebSocketsHover-Prefix.pch";
+				INFOPLIST_FILE = "WebSocketsHover/WebSocketsHover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDBE15AD18DCCF5A000826F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebSocketsHover/WebSocketsHover-Prefix.pch";
+				INFOPLIST_FILE = "WebSocketsHover/WebSocketsHover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDBE15AF18DCCF5A000826F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebSocketsHover.app/WebSocketsHover";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebSocketsHover/WebSocketsHover-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WebSocketsHoverTests/WebSocketsHoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDBE15B018DCCF5A000826F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebSocketsHover.app/WebSocketsHover";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebSocketsHover/WebSocketsHover-Prefix.pch";
+				INFOPLIST_FILE = "WebSocketsHoverTests/WebSocketsHoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBE157118DCCF5A000826F1 /* Build configuration list for PBXProject "WebSocketsHover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE15A918DCCF5A000826F1 /* Debug */,
+				BDBE15AA18DCCF5A000826F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBE15AB18DCCF5A000826F1 /* Build configuration list for PBXNativeTarget "WebSocketsHover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE15AC18DCCF5A000826F1 /* Debug */,
+				BDBE15AD18DCCF5A000826F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDBE15AE18DCCF5A000826F1 /* Build configuration list for PBXNativeTarget "WebSocketsHoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE15AF18DCCF5A000826F1 /* Debug */,
+				BDBE15B018DCCF5A000826F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBE156E18DCCF5A000826F1 /* Project object */;
+}
